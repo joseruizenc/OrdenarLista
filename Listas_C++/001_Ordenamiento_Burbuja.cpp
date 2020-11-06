@@ -14,6 +14,7 @@ using namespace std ;
 main(){
  int Num;												//Declaramos una variable tipo entera donde ingresaremos la cantidad de números que queramos ingresar a la lista
  int Temporal;
+ cout<<"...:::ORDENAMIENTO POR BURBUJA BUBBLESORT:::...\n";
  cout<<"Digite cantidad de posiciones de su lista:";	//Mostramos en  pantalla pedido de digitar cantidad de numeros para la lista
  cin>> Num;												//Recogemos la cantidad solicitada
  int Lista[Num];
