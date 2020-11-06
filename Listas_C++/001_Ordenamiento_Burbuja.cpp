@@ -30,7 +30,7 @@ main(){
    if(Lista[C] < Lista[L]){								//En la condicion IF comparamos si la Posicion C es menor a la Posicion L
     Temporal = Lista[L];								   //Creamos un temporal en donde le asignamos el valor de L
     Lista[L] = Lista[C];								   //C pasa a obtener el valor de L
-    Lista[C] = Temporal;								   //C pasa a ser Temporal siempre que se cumpla la condicion IF      
+    Lista[C] = Temporal;								   //C pasa a ser Temporal siempre que se cumpla la condicion IF     
    }
   }
  }
