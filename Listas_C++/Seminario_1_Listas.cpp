@@ -35,7 +35,7 @@ main(){
 	
 	//Linea de Codigo que nos permitira imprimir los datos digitados
 	cout<<"Listado de Datos: ";		//Imprimimos por pantalla titulo Listado de Datos asi como cada uno de los datos digitados.
-	while(actual!=NULL){			//El apuntador nodo ira al siguiente hasta encontrar NULL y detenerse
+	while(actual!=NULL){			//El apuntador nodo ira al siguiente hasta encontrar NULL y detenerse 
 	cout << actual->num << ", ";	
 	actual=actual->siguiente;
 	}
