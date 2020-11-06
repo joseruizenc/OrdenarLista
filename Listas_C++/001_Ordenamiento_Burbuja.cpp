@@ -25,12 +25,12 @@ main(){
  }
  
  //EN ESTA SECCION PROCEDEMOS A ORGANIZAR LOS NUMEROS DIGITADOS EN NUESTRA LISTA UTILIZANDO EL BUCLE FOR
- for(int L=0; L < Num; L++){							//Este FOR nos va a leer todas las posiciones desde L=0 hasta que sean menor a NUM
-  for(int C=L+1; C <Num; C++){							//Este FOR nos va a leer el numero posterior a L y va en aumento de uno en uno hasta que sea menor a NUM
+ for(int L=0; L < Num; L++){       //Este FOR nos va a leer todas las posiciones desde L=0 hasta que sean menor a NUM
+  for(int C=L+1; C <Num; C++){     //Este FOR nos va a leer el numero posterior a L y va en aumento de uno en uno hasta que sea menor a NUM
    if(Lista[C] < Lista[L]){								//En la condicion IF comparamos si la Posicion C es menor a la Posicion L
-    Temporal = Lista[L];								//
-    Lista[L] = Lista[C];								//
-    Lista[C] = Temporal;								//
+    Temporal = Lista[L];								   //
+    Lista[L] = Lista[C];							   	//
+    Lista[C] = Temporal;								   //
     
    }
   }
